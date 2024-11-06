@@ -43,3 +43,7 @@ Create a startup application with this command inside :
 ```bash
 sh -c "$HOME/.xmodmap.sh"
 ```
+
+## Custom shorcut Ubuntu 
+
+super + T => `gnome-terminal --full-screen`

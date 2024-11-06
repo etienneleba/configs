@@ -4,7 +4,7 @@
 
 ### 1. No Wayland 
 
-When you log in for the first time, ensure that you're not using Ubuntu Wayland. Check the bottom-right corner and choose ubuntu 
+When you log in for the first time, ensure that you're not using Ubuntu Wayland. Check the bottom-right corner and choose ubuntu (X11)
 
 ### 2. Create the keybinding file in the home directory 
 

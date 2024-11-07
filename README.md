@@ -1,5 +1,7 @@
 # Configs
 
+<br/><br/>
+
 ## Arrow keys to JKLM on Ubuntu 24.04
 
 ### 1. No Wayland 
@@ -43,7 +45,61 @@ Create a startup application with this command inside :
 ```bash
 sh -c "$HOME/.xmodmap.sh"
 ```
+<br/><br/>
 
 ## Custom shorcut Ubuntu 
 
-super + T => `gnome-terminal --full-screen`
+super + T => `gnome-terminal --maximize`
+
+<br/><br/>
+
+## Zsh 
+
+You need to have curl and git already installed 
+
+### 1. Install Zsh 
+
+```bash
+sudo apt-get update
+sudo apt-get install zsh 
+```
+
+### 2. Define Zsh as default shell 
+
+```bash
+chsh -s $(which zsh)
+```
+
+### 3. Install Oh My Zsh 
+
+```bash
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+```
+
+### 4. Choose your theme 
+
+Chosse your theme here : [https://github.com/ohmyzsh/ohmyzsh/wiki/themes](https://github.com/ohmyzsh/ohmyzsh/wiki/themes)
+
+```
+# .zshrc
+ZSH_THEME="robbyrussell"
+```
+
+### 5. Install plugins 
+
+```bash
+git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+```
+
+### 6. Enable plugins 
+
+```
+# .zshrc
+plugins=(git zsh-autosuggestions zsh-syntax-highlighting zsh-completions)
+```
+
+### 7. Apply changes
+
+```bash
+source ~/.zshrc
+```

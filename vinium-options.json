@@ -1,0 +1,4 @@
+{
+  "keyMappings": "# Insert your preferred key mappings here.\nmap m scrollDown\nmap j scrollLeft\nmap l scrollRight\nmap J previousTab\nmap L nextTab\nmap M scrollPageDown\nmap K scrollPageUp",
+  "settingsVersion": "2.1.2"
+}

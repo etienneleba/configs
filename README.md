@@ -116,3 +116,18 @@ Google : [https://chromewebstore.google.com/detail/vimium/dbepggeogbaibhgnhhndoj
 ### 2. Restore mapping 
 
 Go in the Vinium options and upload vinium-options.json to restore the custom mapping 
+
+
+<br/><br/>
+
+## PHPStorm 
+
+### 1. Create keymaps folder 
+
+```bash
+mkdir ~/.config/JetBrains/PhpStorm<version>/keymaps
+```
+
+### 2. Add my own keymaps 
+
+Copy Perso.xml to keymaps folder, restart PHPStorm and choose the keybindings in the settings 

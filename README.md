@@ -103,3 +103,16 @@ plugins=(git zsh-autosuggestions zsh-syntax-highlighting zsh-completions)
 ```bash
 source ~/.zshrc
 ```
+
+<br/><br/>
+
+## Vinium 
+
+### 1. Download Vinium extension 
+
+Firefox : [https://addons.mozilla.org/en-US/firefox/addon/vimium-ff/](https://addons.mozilla.org/en-US/firefox/addon/vimium-ff/)
+Google : [https://chromewebstore.google.com/detail/vimium/dbepggeogbaibhgnhhndojpepiihcmeb?hl=en](https://chromewebstore.google.com/detail/vimium/dbepggeogbaibhgnhhndojpepiihcmeb?hl=en)
+
+### 2. Restore mapping 
+
+Go in the Vinium options and upload vinium-options.json to restore the custom mapping 

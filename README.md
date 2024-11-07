@@ -110,7 +110,7 @@ source ~/.zshrc
 
 ### 1. Download Vinium extension 
 
-Firefox : [https://addons.mozilla.org/en-US/firefox/addon/vimium-ff/](https://addons.mozilla.org/en-US/firefox/addon/vimium-ff/)
+Firefox : [https://addons.mozilla.org/en-US/firefox/addon/vimium-ff/](https://addons.mozilla.org/en-US/firefox/addon/vimium-ff/) <br/>
 Google : [https://chromewebstore.google.com/detail/vimium/dbepggeogbaibhgnhhndojpepiihcmeb?hl=en](https://chromewebstore.google.com/detail/vimium/dbepggeogbaibhgnhhndojpepiihcmeb?hl=en)
 
 ### 2. Restore mapping 

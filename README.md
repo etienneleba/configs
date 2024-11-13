@@ -131,3 +131,10 @@ mkdir ~/.config/JetBrains/PhpStorm<version>/keymaps
 ### 2. Add my own keymaps 
 
 Copy Perso.xml to keymaps folder, restart PHPStorm and choose the keybindings in the settings 
+
+### 3. JKLM Mapping 
+
+In order for the JKLM to arrows mapping to work, you need to check the "Use national layouts for shortcuts" box
+
+![Screenshot from 2024-11-13 15-04-50](https://github.com/user-attachments/assets/32f80520-9049-4201-9110-4cc3e545b71d)
+

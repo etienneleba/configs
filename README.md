@@ -138,3 +138,7 @@ In order for the JKLM to arrows mapping to work, you need to check the "Use nati
 
 ![Screenshot from 2024-11-13 15-04-50](https://github.com/user-attachments/assets/32f80520-9049-4201-9110-4cc3e545b71d)
 
+### 4. Setup tests with docker compose 
+
+[Setting up PhpStorm to run PHPUnit tests inside an already running docker container](https://amandoabreu.com/wrote/setting-up-phpstorm-to-run-phpunit-tests-inside-an-already-running-docker-container/)
+

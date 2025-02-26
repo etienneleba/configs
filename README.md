@@ -142,3 +142,5 @@ In order for the JKLM to arrows mapping to work, you need to check the "Use nati
 
 [Setting up PhpStorm to run PHPUnit tests inside an already running docker container](https://amandoabreu.com/wrote/setting-up-phpstorm-to-run-phpunit-tests-inside-an-already-running-docker-container/)
 
+[Use non modal commit interface](https://intellij-support.jetbrains.com/hc/en-us/community/posts/16080207913618-Local-Changes-Tab-missing)
+

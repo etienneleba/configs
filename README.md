@@ -53,6 +53,10 @@ super + T => `gnome-terminal --maximize`
 
 <br/><br/>
 
+## Remove middle click paste 
+
+[Tuto](https://askubuntu.com/questions/4507/how-do-i-disable-middle-mouse-button-click-paste)
+
 ## Zsh 
 
 You need to have curl and git already installed 

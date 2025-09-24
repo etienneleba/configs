@@ -20,11 +20,20 @@
   <action id="$Undo">
     <keyboard-shortcut first-keystroke="ctrl z" />
   </action>
+  <action id="ActivateDebugToolWindow">
+    <keyboard-shortcut first-keystroke="ctrl minus" />
+  </action>
   <action id="ActivateProjectToolWindow">
     <keyboard-shortcut first-keystroke="ctrl b" />
   </action>
-  <action id="ActivateTerminalToolWindow">
+  <action id="ActivateRunToolWindow">
     <keyboard-shortcut first-keystroke="ctrl t" />
+  </action>
+  <action id="ActivateTerminalToolWindow">
+    <keyboard-shortcut first-keystroke="ctrl comma" />
+  </action>
+  <action id="ChooseRunConfiguration">
+    <keyboard-shortcut first-keystroke="alt t" />
   </action>
   <action id="CloseAllEditors">
     <keyboard-shortcut first-keystroke="shift ctrl w" />
@@ -40,6 +49,9 @@
   </action>
   <action id="CommentByLineComment">
     <keyboard-shortcut first-keystroke="ctrl colon" />
+  </action>
+  <action id="Debug">
+    <keyboard-shortcut first-keystroke="shift ctrl minus" />
   </action>
   <action id="Editor Copy">
     <keyboard-shortcut first-keystroke="ctrl c" />
@@ -68,8 +80,15 @@
   <action id="EditorChooseLookupItem">
     <keyboard-shortcut first-keystroke="enter" />
   </action>
+  <action id="EditorChooseLookupItemCompleteStatement" />
   <action id="EditorChooseLookupItemReplace">
     <keyboard-shortcut first-keystroke="tab" />
+  </action>
+  <action id="EditorCloneCaretAbove">
+    <keyboard-shortcut first-keystroke="ctrl dead_circumflex" />
+  </action>
+  <action id="EditorCloneCaretBelow">
+    <keyboard-shortcut first-keystroke="ctrl #10000f9" />
   </action>
   <action id="EditorCodeBlockEnd">
     <keyboard-shortcut first-keystroke="alt m" />
@@ -137,6 +156,9 @@
   <action id="EditorRight">
     <keyboard-shortcut first-keystroke="right" />
   </action>
+  <action id="EditorSelectWord">
+    <keyboard-shortcut first-keystroke="ctrl g" />
+  </action>
   <action id="EditorStartNewLine">
     <keyboard-shortcut first-keystroke="ctrl enter" />
   </action>
@@ -148,6 +170,9 @@
   </action>
   <action id="EditorToggleCase">
     <keyboard-shortcut first-keystroke="shift ctrl enter" />
+  </action>
+  <action id="EditorUnSelectWord">
+    <keyboard-shortcut first-keystroke="ctrl underscore" />
   </action>
   <action id="EditorUnindentSelection">
     <keyboard-shortcut first-keystroke="shift tab" />
@@ -161,14 +186,14 @@
   <action id="ExtractMethod">
     <keyboard-shortcut first-keystroke="shift ctrl e" />
   </action>
+  <action id="FileStructurePopup">
+    <keyboard-shortcut first-keystroke="shift ctrl f" />
+  </action>
   <action id="Find">
     <keyboard-shortcut first-keystroke="ctrl f" />
   </action>
   <action id="FindNext">
     <keyboard-shortcut first-keystroke="ctrl o" />
-  </action>
-  <action id="FindPrevious">
-    <keyboard-shortcut first-keystroke="ctrl u" />
   </action>
   <action id="FindWordAtCaret">
     <keyboard-shortcut first-keystroke="shift ctrl o" />
@@ -183,13 +208,16 @@
     <keyboard-shortcut first-keystroke="shift ctrl p" />
   </action>
   <action id="GotoDeclaration">
-    <keyboard-shortcut first-keystroke="altGraph enter" />
+    <keyboard-shortcut first-keystroke="ctrl left_parenthesis" />
   </action>
   <action id="GotoFile">
     <keyboard-shortcut first-keystroke="ctrl p" />
   </action>
-  <action id="GotoTest">
-    <keyboard-shortcut first-keystroke="shift ctrl t" />
+  <action id="GotoLine">
+    <keyboard-shortcut first-keystroke="ctrl u" />
+  </action>
+  <action id="GotoTypeDeclaration">
+    <keyboard-shortcut first-keystroke="ctrl left_parenthesis" />
   </action>
   <action id="InsertLiveTemplate">
     <keyboard-shortcut first-keystroke="shift ctrl i" />
@@ -219,9 +247,6 @@
   <action id="PrevTemplateParameter">
     <keyboard-shortcut first-keystroke="shift tab" />
   </action>
-  <action id="QuickJavaDoc">
-    <keyboard-shortcut first-keystroke="ctrl g" />
-  </action>
   <action id="RecentFiles">
     <keyboard-shortcut first-keystroke="ctrl e" />
   </action>
@@ -237,6 +262,9 @@
   <action id="Replace">
     <keyboard-shortcut first-keystroke="ctrl r" />
   </action>
+  <action id="Run">
+    <keyboard-shortcut first-keystroke="shift ctrl t" />
+  </action>
   <action id="SaveAll">
     <keyboard-shortcut first-keystroke="ctrl s" />
   </action>
@@ -245,6 +273,9 @@
   </action>
   <action id="SelectAllOccurrences">
     <keyboard-shortcut first-keystroke="shift ctrl u" />
+  </action>
+  <action id="SelectNextOccurrence">
+    <keyboard-shortcut first-keystroke="ctrl asterisk" />
   </action>
   <action id="ShowIntentionActions">
     <keyboard-shortcut first-keystroke="alt enter" />
@@ -255,13 +286,30 @@
   <action id="SmartTypeCompletion">
     <keyboard-shortcut first-keystroke="shift ctrl space" />
   </action>
+  <action id="StepInto">
+    <keyboard-shortcut first-keystroke="f7" />
+  </action>
+  <action id="StepOut">
+    <keyboard-shortcut first-keystroke="f8" />
+  </action>
+  <action id="StepOver">
+    <keyboard-shortcut first-keystroke="f6" />
+  </action>
   <action id="Switcher">
     <keyboard-shortcut first-keystroke="ctrl tab" />
     <keyboard-shortcut first-keystroke="shift ctrl tab" />
   </action>
   <action id="Table-selectPreviousColumnExtendSelection" />
+  <action id="Terminal.ShowDocumentation" />
   <action id="Terminal.SwitchFocusToEditor">
     <keyboard-shortcut first-keystroke="escape" />
   </action>
+  <action id="ToggleLineBreakpoint">
+    <keyboard-shortcut first-keystroke="f5" />
+  </action>
   <action id="Tree-selectParentExtendSelection" />
-</keymap>
+  <action id="Vcs.Log.ShowTooltip" />
+  <action id="copilot.applyInlays">
+    <keyboard-shortcut first-keystroke="right" />
+  </action>
+</keymap>%
